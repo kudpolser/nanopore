@@ -86,6 +86,15 @@ $   abricate --db $db --quiet assembly.fasta > "abr_result_$db.txt"
 $ done
 ```
 
+##### оставим только результаты с identity >95%
+```
+$ mkdir abricate_results_filt
+$ cat abricate_db_list.txt | while read db
+$ do
+$   awk '$11>95' abr_result_$db.txt > abricate_results_filt/abr_result_filt_$db.txt
+$ done
+```
+
 ##### results
 ###### argannot
 ![GitHub Logo](/images/argannot.png)
