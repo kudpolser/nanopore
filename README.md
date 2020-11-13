@@ -24,7 +24,14 @@ $ gzip ERR1023775_2.fastq
 $ unicycler -1 ERR1023775_1.fastq.gz -2 ERR1023775_2.fastq.gz -l SRR5665597_f.fastq.gz -o genome
 ```
 #### Используя NCBI Blast, определите, к какому виду принадлежит собранная бактерия. 
-Klebsiella pneumoniae strain INF059
+Для того, чтобы определить вид собранной бактерии, последовательность, полученная в результате сборки генома была разделён на фрагменты, так как целый геном слишком большой для BLAST. BLAST запускался на нескольких фрагментах, по результатам был сделан вывод, что собранная бактерия принадлежит виду 
+Klebsiella pneumoniae.
+
+![GitHub Logo](/images/blast_1.png)
+
+![GitHub Logo](/images/blast_2.png)
+
+![GitHub Logo](/images/blast_3.png)
 #### Визуализируйте сборку при помощи программы Bandage.
 ```
 #download file to local computer
