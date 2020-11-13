@@ -12,11 +12,13 @@ $ fastq-dump  --split-files SRR5665597
 ```
 #### Выберите из длинных прочтений самые длинные, суммарной длиной не более 400 миллионов п.н. 
 ```
+$ conda install -c bioconda filtlong 
 $ gzip SRR5665597.fastq
 $ filtlong --target_bases 400000000 SRR5665597.fastq.gz | gzip > SRR5665597_f.fastq.gz
 ```
 #### Cоберите геном бактерии из выбранных длинных и всех коротких прочтений, в гибридном режиме. 
 ```
+$ conda install -c bioconda unicycler
 $ gzip ERR1023775_1.fastq
 $ gzip ERR1023775_2.fastq
 $ unicycler -1 ERR1023775_1.fastq.gz -2 ERR1023775_2.fastq.gz -l SRR5665597_f.fastq.gz -o genome
