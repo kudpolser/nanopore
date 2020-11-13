@@ -1,0 +1,4 @@
+assembly.fasta	1	1163124	1166276	-	oqxB	1-3153/3153	===============	0/0	100.00	100.00	ncbi	NG_048025.1	multidrug efflux RND transporter permease subunit OqxB	PHENICOL;QUINOLONE
+assembly.fasta	1	1166300	1167475	-	oqxA	1-1176/1176	===============	0/0	100.00	100.00	ncbi	NG_048024.1	multidrug efflux RND transporter periplasmic adaptor subunit OqxA	PHENICOL;QUINOLONE
+assembly.fasta	1	2789783	2790643	+	blaSHV-110	1-861/861	===============	0/0	100.00	99.77	ncbi	NG_050001.1	class A beta-lactamase SHV-110	BETA-LACTAM
+assembly.fasta	1	4624378	4624797	-	fosA6	1-420/420	===============	0/0	100.00	99.52	ncbi	NG_051497.1	fosfomycin resistance glutathione transferase FosA6	FOSFOMYCIN

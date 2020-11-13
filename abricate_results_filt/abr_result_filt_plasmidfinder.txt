@@ -1,0 +1,1 @@
+assembly.fasta	2	110141	110370	+	IncFII_1_pKP91	1-230/230	===============	0/0	100.00	100.00	plasmidfinder	CP000966	IncFII_1_pKP91_CP000966	

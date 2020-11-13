@@ -1,0 +1,5 @@
+assembly.fasta	1	1163124	1166276	-	(Flq)OqxBgb	1-3153/3153	===============	0/0	100.00	100.00	argannot	EU370913:47851-51003	(Flq)OqxBgb	
+assembly.fasta	1	1166300	1167475	-	(Flq)OqxA	1-1176/1176	===============	0/0	100.00	100.00	argannot	EU370913:46652-47827	(Flq)OqxA	
+assembly.fasta	1	2789783	2790643	+	(Bla)blaSHV-110	1-861/861	===============	0/0	100.00	99.77	argannot	HQ877614:1-861	(Bla)blaSHV-110	
+assembly.fasta	1	4176277	4177437	+	(Bla)ampH	1-1161/1161	===============	0/0	100.00	99.22	argannot	CP003785:4208384-4209544	(Bla)ampH	
+assembly.fasta	1	4624378	4624797	-	(Fcyn)FosA6	1-420/420	===============	0/0	100.00	99.52	argannot	KU254579:59422-59841	(Fcyn)FosA6	

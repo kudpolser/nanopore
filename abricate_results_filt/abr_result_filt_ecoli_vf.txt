@@ -1,0 +1,11 @@
+assembly.fasta	1	1815034	1817055	-	fyuA	1-2022/2022	===============	0/0	100.00	99.95	ecoli_vf	gi:387607668	pesticin/yersiniabactin TonB-dependent receptor	
+assembly.fasta	1	1817186	1818763	-	ybtE	1-1578/1578	===============	0/0	100.00	99.75	ecoli_vf	gi:218705476	salicyl-AMP ligase YbtE	
+assembly.fasta	1	1818767	1819570	-	ybtT	1-804/804	===============	0/0	100.00	99.50	ecoli_vf	gi:387607666	yersiniabactin siderophore biosynthetic protein	
+assembly.fasta	1	1819567	1820727	-	ybtU	1-1161/1161	===============	0/0	100.00	99.31	ecoli_vf	gi:218705474	Thiazolinyl-S-HMWP1 reductase YbtU	
+assembly.fasta	1	1820664	1830155	-	irp1	1-9492/9492	===============	0/0	100.00	99.72	ecoli_vf	gi:218705473	High-molecular-weight nonribosomal peptide/polyketide synthetase 1	
+assembly.fasta	1	1830243	1836368	-	irp2	1-6126/6126	===============	0/0	100.00	99.64	ecoli_vf	gi:218705472	High-molecular-weight nonribosomal peptide/polyketide synthetase 2	
+assembly.fasta	1	1836541	1837500	-	ybtA	1-960/960	===============	0/0	100.00	99.90	ecoli_vf	gi:218705471	AraC family transcriptional regulator	
+assembly.fasta	1	1837667	1839469	+	ybtP	1-1803/1803	===============	0/0	100.00	99.56	ecoli_vf	gi:218705470	yersiniabactin-iron ABC transporter permease and ATP-binding protein YbtP	
+assembly.fasta	1	1839429	1841258	+	ybtQ	1-1830/1830	===============	0/0	100.00	99.78	ecoli_vf	gi:218705469	yersiniabactin-iron ABC transporter permease and ATP-binding protein YbtQ	
+assembly.fasta	1	1841128	1842531	+	ybtX	1-1404/1404	===============	0/0	100.00	97.58	ecoli_vf	gi:218705468	yersiniabactin-iron transporter permease YbtX	
+assembly.fasta	1	1842559	1843863	+	ybtS	1-1305/1305	===============	0/0	100.00	97.47	ecoli_vf	gi:410482044	salicylate synthase Irp9	
