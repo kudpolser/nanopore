@@ -26,3 +26,29 @@ Klebsiella pneumoniae strain INF059
 #### Визуализируйте сборку при помощи программы Bandage.
 ![GitHub Logo](graph.png)
 #### Найдите в вашей сборке гены антибиотикорезистентности и вирулентности. 
+
+##### install abricate
+mkdir utils
+cd utils
+git clone https://github.com/tseemann/abricate.git
+export PATH="/mnt/local/vse2020/home/[USERNAME]/utils/abricate/bin:$PATH"
+##### install any2fasta (with abricate)
+cd abricate/bin
+wget https://raw.githubusercontent.com/tseemann/any2fasta/master/any2fasta
+chmod +x any2fasta
+##### install Path::Tiny (with abricate) {install Perl5 locally [local::bin]}
+perl -MCPAN -e shell
+install Path::Tiny
+cd ../..
+
+##### setup abricate
+abricate --check
+abricate --setupdb
+abricate --list
+
+##### run abricate for every databese
+abricate --list | cut -d'       ' -f1 | tail -n+2 > abricate_db_list.txt
+cat abricate_db_list.txt | while read db
+do
+    abricate --db $db --quiet assembly.fasta > "abr_result_$db.txt"
+done
