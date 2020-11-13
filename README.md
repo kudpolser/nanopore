@@ -110,6 +110,7 @@ $ done
 | 1166300 | 1167475 | -      | oqxA       | 100.00   | 100.00   | multidrug efflux RND transporter periplasmic adaptor subunit OqxA | PHENICOL;QUINOLONE |
 | 2789783 | 2790643 | +      | blaSHV-110 | 100.00   | 99.77    | class A beta-lactamase SHV-110                                    | BETA-LACTAM        |
 | 4624378 | 4624797 | -      | fosA6      | 100.00   | 99.52    | fosfomycin resistance glutathione transferase FosA6               | FOSFOMYCIN         |
+
 Видим гены устойчивости к антибиотикам из группы фениколов, хинолонов, к фосфомицину и к бета-лактамным антибиотикам.
 
 ##### results
