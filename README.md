@@ -31,9 +31,13 @@ Klebsiella pneumoniae strain INF059
 $ scp -P 9022 user_name@mg.uncb.iitp.ru:/mnt/local/vse2020/home/user_name/nanopore/genome/assembly.gfa .
 ```
 File > Load graph > assembly.gfa
+
 Graph drawing > Double
 
 ![GitHub Logo](/images/graph.png)
+
+В итоге в сборке есть кольцевая молекула ДНК и две плазмиды.
+
 #### Найдите в вашей сборке гены антибиотикорезистентности и вирулентности.
 ##### install abricate
 ```
