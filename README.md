@@ -26,6 +26,13 @@ $ unicycler -1 ERR1023775_1.fastq.gz -2 ERR1023775_2.fastq.gz -l SRR5665597_f.fa
 #### Используя NCBI Blast, определите, к какому виду принадлежит собранная бактерия. 
 Klebsiella pneumoniae strain INF059
 #### Визуализируйте сборку при помощи программы Bandage.
+```
+#download file to local computer
+$ scp -P 9022 user_name@mg.uncb.iitp.ru:/mnt/local/vse2020/home/user_name/nanopore/genome/assembly.gfa .
+```
+File > Load graph > assembly.gfa
+Graph drawing > Double
+
 ![GitHub Logo](/images/graph.png)
 #### Найдите в вашей сборке гены антибиотикорезистентности и вирулентности.
 ##### install abricate
