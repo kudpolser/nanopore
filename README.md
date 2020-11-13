@@ -102,6 +102,16 @@ $   awk '$11>95' abr_result_$db.txt > abricate_results_filt/abr_result_filt_$db.
 $ done
 ```
 
+##### гены резистентности к антибиотикам
+Рассмотрим результаты поиска по базе NCBI AMRFinderPlus, в которой содержатся гены резистентности к антибиотикам.
+| START   | END     | STRAND | GENE       | COVERAGE | IDENTITY | PRODUCT                                                           | RESISTANCE         |
+|---------|---------|--------|------------|----------|----------|-------------------------------------------------------------------|--------------------|
+| 116312  | 1166276 | -      | oqxB       | 100.00   | 100.00   | multidrug efflux RND transporter permease subunit OqxB            | PHENICOL;QUINOLONE |
+| 1166300 | 1167475 | -      | oqxA       | 100.00   | 100.00   | multidrug efflux RND transporter periplasmic adaptor subunit OqxA | PHENICOL;QUINOLONE |
+| 2789783 | 2790643 | +      | blaSHV-110 | 100.00   | 99.77    | class A beta-lactamase SHV-110                                    | BETA-LACTAM        |
+| 4624378 | 4624797 | -      | fosA6      | 100.00   | 99.52    | fosfomycin resistance glutathione transferase FosA6               | FOSFOMYCIN         |
+Видим гены устойчивости к антибиотикам из группы фениколов, хинолонов, к фосфомицину и к бета-лактамным антибиотикам.
+
 ##### results
 ###### argannot
 ![GitHub Logo](/images/argannot.png)
